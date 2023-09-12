@@ -53,7 +53,7 @@ const App = () => {
       style={{margin:'5px', fontSize:'10px',padding:'10px'}}>Increase by 1</button>
      <button 
      onClick={onClickDecrease} 
-  //    onClick={()=>{     //<-- can be done like this also
+  //    onClick={()=>{ //<-- can be done like this also
   //     setCounter(Counter+1);
   // }}
      style={{margin:'5px', fontSize:'10px',padding:'10px'}}>Decrease by 1</button>
