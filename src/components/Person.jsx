@@ -14,6 +14,7 @@ import "./Person.css"; //<--external css import
   //   padding:'2rem',
   // }
   return (
+    
     <div
       className="container"
       
