@@ -6,17 +6,7 @@ function Homes() {
   let bgcolor =()=>{
     document.querySelector('body').style.backgroundColor = 'aqua'//<--events
   }
-  // let Counter = 0
-  // const onClickIncrease = ()=>{
-  //   Counter = Counter+1;
-  //   console.log(Counter);
-    // document.getElementById('counter').innerHTML = Counter
-  // }
-  // const onClickDecrease = ()=>{
-  //   Counter = Counter-1;
-  //   console.log(Counter);
-    // document.getElementById('counter').innerHTML = Counter
-  // }
+  
   const [Counter,setCounter] = useState(0) //<-- Hooks - useState 
   const onClickIncrease = ()=>{
       setCounter(Counter+1);
