@@ -5,6 +5,7 @@ import About from './components/About'
 import Contact from './components/Contact'
 import Teams from './components/Teams'
 import Navbar  from './components/Navbar'
+import StatesandOthers from './components/StatesandOthers'
 
 const App = () => {
 
@@ -22,6 +23,7 @@ const App = () => {
 
 </Router>
     
+    {/* <StatesandOthers/> */}
    </>
   )
 }
