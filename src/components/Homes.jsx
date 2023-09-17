@@ -8,7 +8,7 @@ function Homes() {
     <>
    
     <div>Home Page
-      <Form/>
+      {/* <Form/> */}
     </div>
     </>
   )
